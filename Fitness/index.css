@@ -331,7 +331,9 @@ label{
     .img{
         object-fit:fill;
     }
-    .oks{
-        width: 100%;
+     #oks{
+        max-width: 90%;
+        overflow: hidden;
+        font-size: 15px;
     }
 }
