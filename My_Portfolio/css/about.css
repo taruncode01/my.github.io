@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1b1a17 !important ;
+    color: white!important;
+    font-size: 20px;
+}
+
+  .exit{
+    width:30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 93%;
+    top:9%;
+  }
+  .exit img{
+    width: 50px;
+  }
+
+  .circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 0px solid white;
+    margin: 0 auto;
+    margin-top:100px;
+    overflow: hidden;
+  }
+  .name {
+    text-align:center;
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight:bold;
+  }
+  .pro{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  .para{
+    text-align:center;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 24px;
+  }
+  .circle{
+    border: 2px solid white;
+  }
+ .circle img{
+  width: 100%;
+ }
+
+
+
+@media only screen and (max-width:480px){
+  .exit img{
+    width: 40px;
+    position:relative;
+    bottom: 15px;
+  }
+  .circle{
+    width: 150px;
+    height: 150px;
+  }
+  .name{
+    font-size: 25px;
+  }
+  .para{
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    font-size: 15px!important;
+  }
+}
