@@ -279,17 +279,19 @@ label{
     border: 0px solid blue; 
     text-align: left;
     color: white;
+    font-size: 18px;
   }
 .in{
     margin: 0;
     width: 100%;
-    height:30px;
+    height:35px;
     border:1px solid white;
     background:white;
     color:black;
-    border: 1px solid green;
+    border: none;
     padding-left: 3px;
   }
+
   input:focus{
     border: none;
     outline:0px;
@@ -300,7 +302,7 @@ label{
      background: none;
      color: white!important;
      width:100%;
-     height:35px;
+     height:40px;
   }
   .sh:hover{
     background: white;
